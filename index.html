@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="snippet-multiroot-editor">
+      <div id="toolbar"></div>
+
+      <header id="header">Header content is inserted here.</header>
+
+      <div id="content">Editor content is inserted here.</div>
+
+      <div id="footer-left">Editor content is inserted here.</div>
+
+      <div id="footer-right">Editor content is inserted here.</div>
+    </div>
+    <button>클릭</button>
+
+    <style>
+      /* Give the toolbar some space so it does not look like it belongs to the header root only. */
+      #snippet-multiroot-editor #toolbar {
+        margin-bottom: 1em;
+      }
+    </style>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
